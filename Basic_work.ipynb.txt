@@ -1,0 +1,448 @@
+{
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "c29182b2",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "c29182b2",
+        "outputId": "59bd1d45-3742-44c9-b730-48d6557a3382"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "my name is: Unwana-Abasi\n"
+          ]
+        }
+      ],
+      "source": [
+        "#creating a variable called name\n",
+        "name='Unwana-Abasi'\n",
+        "print('my name is:',name)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "kmLEppim8t24"
+      },
+      "id": "kmLEppim8t24",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "823abebe",
+      "metadata": {
+        "id": "823abebe",
+        "outputId": "9b0943aa-9d1b-478e-fcc6-1d0c9692dbdd"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "the area of a rectangle is: 39.6\n"
+          ]
+        }
+      ],
+      "source": [
+        "#calculating the area of a rectangle\n",
+        "width=5.5\n",
+        "height=7.2\n",
+        "result=width*height\n",
+        "print('the area of a rectangle is:',result)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "6fee6c17",
+      "metadata": {
+        "id": "6fee6c17",
+        "outputId": "99c13a11-d35c-43aa-eee4-515c191c37e4"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "there is light at the end of the tunnel\n"
+          ]
+        }
+      ],
+      "source": [
+        "#creating a variable called sentence\n",
+        "sentence=('there is light at the end of the tunnel')\n",
+        "print(sentence)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "d9e236e7",
+      "metadata": {
+        "id": "d9e236e7",
+        "outputId": "7633225c-c52a-4f1c-ac4b-67f83b0d17fb"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "['watermelon', 'pineapple', 'apple', 'pawpaw']\n"
+          ]
+        }
+      ],
+      "source": [
+        "#creating a list of my favourite fruits\n",
+        "my_fruit=['watermelon','pineapple','apple','pawpaw']\n",
+        "print(my_fruit)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "4c649346",
+      "metadata": {
+        "id": "4c649346",
+        "outputId": "8db5f712-76cc-41f0-f942-621583e66297"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "['watermelon', 'pineapple', 'apple', 'pawpaw', 'banana']\n"
+          ]
+        }
+      ],
+      "source": [
+        "#adding a new fruit to my favourite fruit list\n",
+        "my_fruit.append('banana')\n",
+        "print(my_fruit)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "caad3928",
+      "metadata": {
+        "id": "caad3928",
+        "outputId": "97436768-b617-4618-ac2a-ea23ba56347b"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "['watermelon', 'pineapple', 'apple', 'banana']\n"
+          ]
+        }
+      ],
+      "source": [
+        "#removing a fruit from my favourite fruit list\n",
+        "my_fruit.remove('pawpaw')\n",
+        "print(my_fruit)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "047b3c70",
+      "metadata": {
+        "id": "047b3c70",
+        "outputId": "bae01c57-fdbb-4e7b-84ff-7bc1c73d2ab3"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "6\n",
+            "7\n",
+            "8\n",
+            "9\n",
+            "10\n"
+          ]
+        }
+      ],
+      "source": [
+        "#creating a list of numbers using loop\n",
+        "my_list=[1,2,3,4,5,6,7,8,9,10]\n",
+        "for numbers in my_list:\n",
+        "    print(numbers)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "246d6676",
+      "metadata": {
+        "id": "246d6676",
+        "outputId": "c719557a-ac2e-4f51-d752-34f723d7e091"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "('white', 'red', 'black')\n"
+          ]
+        }
+      ],
+      "source": [
+        "#defining a tuple called colors\n",
+        "tuple_colors=('white','red','black')\n",
+        "print(tuple_colors)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "fda27498",
+      "metadata": {
+        "collapsed": true,
+        "id": "fda27498",
+        "outputId": "7dbefcda-ffeb-4ec2-c3b5-e7cdd1b2a835"
+      },
+      "outputs": [
+        {
+          "ename": "AttributeError",
+          "evalue": "'tuple' object has no attribute 'discard'",
+          "output_type": "error",
+          "traceback": [
+            "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[1;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+            "Cell \u001b[1;32mIn[10], line 2\u001b[0m\n\u001b[0;32m      1\u001b[0m \u001b[38;5;66;03m#changing the value of one of the colors in the tuple\u001b[39;00m\n\u001b[1;32m----> 2\u001b[0m tuple_colors\u001b[38;5;241m.\u001b[39mdiscard(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mblack\u001b[39m\u001b[38;5;124m'\u001b[39m)\n",
+            "\u001b[1;31mAttributeError\u001b[0m: 'tuple' object has no attribute 'discard'"
+          ]
+        }
+      ],
+      "source": [
+        "#changing the value of one of the colors in the tuple\n",
+        "tuple_colors.discard('black')\n",
+        "#i could not make the changes because tuple has no changes attribute"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "abaebde3",
+      "metadata": {
+        "id": "abaebde3",
+        "outputId": "10e8b555-ed29-4406-d664-599adfb1cbe2"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "('think big', 'purple hibiscus', 'gifted hands')\n"
+          ]
+        }
+      ],
+      "source": [
+        "#creating a tuple of my favourite books\n",
+        "tuple_1=('think big','purple hibiscus','gifted hands')\n",
+        "print(tuple_1)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "19b9d81e",
+      "metadata": {
+        "id": "19b9d81e",
+        "outputId": "c23d8119-2f19-4566-ad63-04c8acca1864"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "['think big', 'purple hibiscus', 'gifted hands']\n",
+            "<class 'list'>\n"
+          ]
+        }
+      ],
+      "source": [
+        "#converting tuple to list\n",
+        "list_1=list(tuple_1)\n",
+        "print(list_1)\n",
+        "print(type(list_1))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "7e7f1221",
+      "metadata": {
+        "id": "7e7f1221",
+        "outputId": "038fc2b8-9938-4cb1-d77f-af14fe0338f0"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "('think big', 'purple hibiscus', 'gifted hands')\n",
+            "<class 'tuple'>\n"
+          ]
+        }
+      ],
+      "source": [
+        "#converting list to tuple\n",
+        "tuple_1=tuple(list_1)\n",
+        "print(tuple_1)\n",
+        "print(type(tuple_1))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "f0ea99ee",
+      "metadata": {
+        "id": "f0ea99ee",
+        "outputId": "341e2d26-055d-4ca8-d64a-c98d8b1a230a"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "the radius is10\n",
+            "the area of a circle is: 31.4159\n"
+          ]
+        }
+      ],
+      "source": [
+        "#calculating area of a circle, prompting the user for the radius\n",
+        "pi=3.14159\n",
+        "radius=int(input('the radius is'))\n",
+        "result=pi*radius\n",
+        "print('the area of a circle is:',result)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "76091d98",
+      "metadata": {
+        "id": "76091d98",
+        "outputId": "0366c972-0f26-4a14-f5bc-4879cc8a1796"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "100000\n"
+          ]
+        }
+      ],
+      "source": [
+        "#calculatinf the value of X to the power of y value\n",
+        "x=(10)\n",
+        "y=(5)\n",
+        "result=x**y\n",
+        "print(result)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "dc37a924",
+      "metadata": {
+        "id": "dc37a924",
+        "outputId": "8498ed20-d807-4e6e-9a02-c96821a603c4"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "5\n"
+          ]
+        }
+      ],
+      "source": [
+        "#calculating the quotient and remainder\n",
+        "num=145\n",
+        "result=int(num)%7\n",
+        "print(result)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "d7fe0ed4",
+      "metadata": {
+        "id": "d7fe0ed4",
+        "outputId": "3b13700b-2989-4c0a-f55a-bd00189a86db"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "30\n"
+          ]
+        }
+      ],
+      "source": [
+        "#calculating sum of all numbers in a list\n",
+        "number=[2,4,6,8,10]\n",
+        "result=sum(number)\n",
+        "print(result)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "f585f54f",
+      "metadata": {
+        "id": "f585f54f"
+      },
+      "outputs": [],
+      "source": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3 (ipykernel)",
+      "language": "python",
+      "name": "python3"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "ipython",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.11.4"
+    },
+    "colab": {
+      "provenance": [],
+      "toc_visible": true
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
